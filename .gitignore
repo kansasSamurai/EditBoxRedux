@@ -3,3 +3,6 @@
 target
 #GFMV generated
 .*.html
+.project
+.settings
+

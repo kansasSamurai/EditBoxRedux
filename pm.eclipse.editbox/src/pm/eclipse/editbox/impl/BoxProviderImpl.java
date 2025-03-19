@@ -174,9 +174,11 @@ public class BoxProviderImpl implements IBoxProvider {
 
 	class Matcher {
 
-		org.eclipse.ui.internal.misc.StringMatcher m;
+		// org.eclipse.ui.internal.misc.StringMatcher m;
+		StringMatcher m;
 		Matcher(String pattern) {
-			m = new org.eclipse.ui.internal.misc.StringMatcher(pattern, true, false);
+			m = new StringMatcher(pattern, true, false);
+			// m = new org.eclipse.ui.internal.misc.StringMatcher(pattern, true, false);
 		}
 		boolean matches(String text) {
 			return m.match(text);
