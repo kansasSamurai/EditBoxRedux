@@ -1,5 +1,9 @@
 
-# ![](pm.eclipse.editbox/icons/editbox.png) EditBox Eclipse plugin
+# ![](pm.eclipse.editbox/icons/editbox.png) EditBox Eclipse plugin - Updated!
+
+Note: I created a fork of this awesome plugin and updated it to work for current Eclipse versions. I also opened a PR and still hoping the original Authors will reply to my request. U are free to follow the instructions below and package my newly updated branch! 
+Disclaimer: I am not responsible for managing the ccertificates and only used my personal packaged copy on Eclipse. You are advised to follow the instructions provided by the original creators, However, I am willing to pass over the control/updated version to the creator should they reply to my PR. I am also open to fully taking charge of maintaining the plugin in case I am granted the permission to do so.
+
 
 [![Build Status](https://secure.travis-ci.org/Nodeclipse/EditBox.png)](http://travis-ci.org/Nodeclipse/EditBox)
 <a href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1582059" title="Drag and drop into a running Eclipse
