@@ -9,7 +9,7 @@ I am not responsible for managing the certificates for installing this plugin an
 
 ### Tip
 
-You can use maven and package a copy of this update, follow the instructions on how to install a plugin (By clicking on Help>Install New Software.... on the menu bar) in eclipse. In place of selecting the link, you can select ypur locally packaged copy and then proceed to install like you will do with any plugin.
+You can use maven and package a copy of this update, follow the instructions on how to install a plugin (By clicking on Help>Install New Software.... on the menu bar) in eclipse. In place of selecting the link, you can select your locally packaged copy and then proceed to install like you will do with any plugin.
 
 [![Build Status](https://secure.travis-ci.org/Nodeclipse/EditBox.png)](http://travis-ci.org/Nodeclipse/EditBox)
 <a href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1582059" title="Drag and drop into a running Eclipse
