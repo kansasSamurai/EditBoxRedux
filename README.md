@@ -1,5 +1,20 @@
 
-# ![](pm.eclipse.editbox/icons/editbox.png) EditBox Eclipse plugin - Updated!
+# ![](pm.eclipse.editbox/icons/editbox.png) EditBoxRedux (an updated EditBox Eclipse plugin)
+
+## EditBoxRedux - README
+As of May 2025, this is just a fork of [https://github.com/ENate/EditBox---Updated].
+Many thanks to the author for fixing this plugin!!
+
+I intend to publish Releases here but until I do, Nate's "Tip" section (below)
+explains how to manually install this plugin with this project.
+
+`mvn package` to make update site and zip archive.
+
+Everything below here are the content of the original README files:
+* [https://github.com/ENate/EditBox---Updated]
+* [https://github.com/Nodeclipse/EditBox]
+
+## Forked Site - README
 
 Note: I created a fork of this awesome plugin and updated it to work for current Eclipse versions. I also opened a PR and still hoping the original Authors will reply to my request. U are free to follow the instructions below and package my newly updated branch! 
 
@@ -10,6 +25,8 @@ I am not responsible for managing the certificates for installing this plugin an
 ### Tip
 
 You can use maven and package a copy of this update, follow the instructions on how to install a plugin (By clicking on Help>Install New Software.... on the menu bar) in eclipse. In place of selecting the link, you can select your locally packaged copy and then proceed to install like you will do with any plugin. Please consider giving a star if you use this updated copy :). You can also contribute later! I hope to outline the contribution guidelines if I am fully granted the permission to maintain the plugin.
+
+## Original Site README
 
 [![Build Status](https://secure.travis-ci.org/Nodeclipse/EditBox.png)](http://travis-ci.org/Nodeclipse/EditBox)
 <a href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1582059" title="Drag and drop into a running Eclipse
