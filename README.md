@@ -1,10 +1,11 @@
 
-# ![](pm.eclipse.editbox/icons/editbox.png) EditBoxRedux (an updated EditBox Eclipse plugin)
+# ![](pm.eclipse.editbox/icons/editbox.png) EditBoxRedux 
+An updated EditBox Eclipse plugin - As of May 2025, 
+this is just a fork of [https://github.com/ENate/EditBox---Updated].
 
-## EditBoxRedux - README
-As of May 2025, this is just a fork of [https://github.com/ENate/EditBox---Updated].
 Many thanks to the author for fixing this plugin!!
 
+## EditBoxRedux - README
 I intend to publish Releases here but until I do, Nate's "Tip" section (below)
 explains how to manually install this plugin with this project.
 
