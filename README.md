@@ -6,10 +6,31 @@ this is just a fork of [https://github.com/ENate/EditBox---Updated].
 Many thanks to the author for fixing this plugin!!
 
 ## EditBoxRedux - README
-I intend to publish Releases here but until I do, Nate's "Tip" section (below)
-explains how to manually install this plugin with this project.
 
-`mvn package` to make update site and zip archive.
+### Release History
+
+- **v1.0.0-alpha** (2025-05-14) No new features - plugin .jar is published.  
+
+Since I do not yet have the infrastructure* to provide a site compatible with
+Eclipse "Install New Software...", see the (extremely simple) Install Instructions below.
+
+\*Creating an installation site is on the TODO list. 
+
+### Build/Install Instructions
+
+`mvn package` will make three key artifacts:
+1. plugin jar
+2. update site
+3. zip archive
+
+The plugin jar will be created in the standard maven location as follows:
+
+`.../pm.eclipse.editbox/target/pm.eclipse.editbox-1.0.0-SNAPSHOT.jar`
+
+To install, the `.jar` file can then be copied to your Eclipse `/dropins` folder.
+> _If Eclipse is running, you will have to restart Eclipse._
+
+-------------------------
 
 Everything below here are the content of the original README files:
 * [https://github.com/ENate/EditBox---Updated]
@@ -65,16 +86,16 @@ Hint: bump to next version with
 
 ### History
 
-- 0.50
-- 0.55
-- 0.60
+- 1.0.0 (2018-04-02) fix for Oxygen by Jiří Engelthaler;
+	update tycho build to [1.1.0](https://wiki.eclipse.org/Tycho/Release_Notes/1.1)
+- 0.70 (2015-8) refresh release; known issues: [#14](https://github.com/Nodeclipse/EditBox/issues/14)	
 - 0.65 (2014-08) change icon; 
 	Checkbox "Plugin enabled";
 	combo to apply one of bundled themes to all categories	
 	(this is done for case when switching to black themes and back)
-- 0.70 (2015-8) refresh release; known issues: [#14](https://github.com/Nodeclipse/EditBox/issues/14)	
-- 1.0.0 (2018-04-02) fix for Oxygen by Jiří Engelthaler;
-	update tycho build to [1.1.0](https://wiki.eclipse.org/Tycho/Release_Notes/1.1)
+- 0.60
+- 0.55
+- 0.50
 
 
 ## Themes
